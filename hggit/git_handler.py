@@ -1046,7 +1046,7 @@ class GitHandler(object):
                     else:
                       self.repo.ui.warn(
                         'Skipping export of tag %s because it '
-                        'has invalid name as a git tag.\n' % tag)
+                        'has invalid name as a git refname.\n' % tag)
                 else:
                     self.repo.ui.warn(
                         'Skipping export of tag %s because it '
