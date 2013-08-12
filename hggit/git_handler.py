@@ -1050,7 +1050,7 @@ class GitHandler(object):
                 else:
                     self.repo.ui.warn(
                         'Skipping export of tag %s because it '
-                        'has no matching git revision.' % tag)
+                        'has no matching git revision.\n' % tag)
 
     def _filter_for_bookmarks(self, bms):
         if not self.branch_bookmark_suffix:
